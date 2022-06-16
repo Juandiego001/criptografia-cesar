@@ -39,6 +39,10 @@ def encrypt(m, d):
         if i != ' ':
             v = l.index(i)
             v += d
+
+            if v > 26:
+                v -= 27
+
             nM += l[v]
         else:
             nM += ' '
