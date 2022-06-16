@@ -30,7 +30,7 @@ l = [
 
 # m: mensaje a encriptar
 # d: desplazamiento
-# v: valor de acuerdo al diccionario
+# v: valor de acuerdo al arreglo
 # nM: nuevo mensaje
 def encrypt(m, d):
     m = m.upper()
